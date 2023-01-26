@@ -1,0 +1,2 @@
+The result of an add divide on 3 and 0
+inf
