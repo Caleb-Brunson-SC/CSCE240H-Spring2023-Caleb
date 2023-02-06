@@ -101,13 +101,13 @@ public class ProgExtractor {
                 }
             }
 
+            System.out.println("Output file generated.");
+
             myReader.close();
             myWriter.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
-
-
 
 }
