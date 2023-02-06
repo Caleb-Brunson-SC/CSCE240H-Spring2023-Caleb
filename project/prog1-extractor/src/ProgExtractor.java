@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 
 /*
- * Helpful Resources
+ * References
  * https://stackoverflow.com/questions/1844688/how-to-read-all-files-in-a-folder-from-java
  * https://www.w3schools.com/java/java_files_read.asp
  * https://www.geeksforgeeks.org/java-program-to-count-the-number-of-lines-words-characters-and-paragraphs-in-a-text-file/
@@ -24,7 +24,8 @@ public class ProgExtractor {
 
                 if (fileStatus) {
                     calculateFileStatistics(file.getPath());
-                    formatOutputFile(file.getPath());
+                    String outputFileName = "project/prog1-extractor/test/output-" + file.getName();
+                    formatOutputFile(file.getPath(), outputFileName);
                 } else {
                     System.out.println("Skipping file...");
                     continue;
@@ -76,8 +77,35 @@ public class ProgExtractor {
         }
     }
 
-    private static void formatOutputFile(String fileName) {
-        //TODO
+    private static void formatOutputFile(String inputFileName, String outputFileName) {
+        try {
+            File myFile = new File(inputFileName);
+            Scanner myReader = new Scanner(myFile);
+            FileWriter myWriter = new FileWriter(outputFileName);
+            
+            boolean isNextParagraph = true;
+            while (myReader.hasNextLine()) {
+                String line = myReader.nextLine();
+
+                if (isNextParagraph) {
+                    myWriter.write("\t"+line+"\n");
+                    isNextParagraph = false;
+                } else {
+                    myWriter.write(line+"\n");
+                }
+
+                if (line.equals("")) {
+                    isNextParagraph = true;
+                } else {
+                    isNextParagraph = false;
+                }
+            }
+
+            myReader.close();
+            myWriter.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
 
