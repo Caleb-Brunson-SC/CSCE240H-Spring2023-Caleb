@@ -56,6 +56,7 @@ The ProgExtractor.java class contains four methods:
 * formatOutputFile()
     * Returns void 
     * Creates an output file for a given input file in the test directory
+    * Adds a tab indentation to the beginning of the first line of a paragraph
 
 #### How to Use The Program
 The program will complete automatically once it is run. However, non-empty .txt files must be present in the data directory for the program to operate successfully. 
