@@ -22,3 +22,24 @@ There are four directories contained in the prog1-extractor directory. These are
     * This directory contains the ProgExtractor.java source code.
 * test
     * This directory contains ten (.txt) output files and two .png images of console output.
+
+#### Source Code Organization
+The ProgExtractor.java class contains four methods:
+* main() 
+    * Default Java main() method
+    * Prompts the user with a greeting and basic information about the purpose of the file
+    * Iterates through an array of .txt files in the data directory containing webpage content about HIV
+        * One .txt file from CDC
+        * Eight .txt files from webmd
+        * One junk .txt file named bob.txt for testing 
+    * During the iteration the method does the following:
+        1. Call the checkFile() method
+            * As long as the file is not empty, the program proceeds with the next two steps
+        2. Call the calculateFileStatistics() method
+        3. Call the formatOutputFile() method
+* checkFile() 
+    * 
+* calculateFileStatistics()
+    * 
+* formatOutputFile()
+    * 
