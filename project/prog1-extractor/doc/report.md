@@ -26,6 +26,7 @@ There are four directories contained in the prog1-extractor directory. These are
 #### Source Code Organization
 The ProgExtractor.java class contains four methods:
 * main() 
+    * Returns void
     * Default Java main() method
     * Prompts the user with a greeting and basic information about the purpose of the file
     * Iterates through an array of .txt files in the data directory containing webpage content about HIV
@@ -38,8 +39,31 @@ The ProgExtractor.java class contains four methods:
         2. Call the calculateFileStatistics() method
         3. Call the formatOutputFile() method
 * checkFile() 
-    * 
+    * Returns a boolean value representing the status of the file
+        * TRUE = good
+        * FALSE = bad
+    * Uses an if-else statement to check the length of the file
+        * If the file is empty, return false
+        * Else, return true
 * calculateFileStatistics()
-    * 
+    * Returns void
+    * Iterates over every line in the file
+    * Counts the number of lines
+    * Counts the number of words
+        * Words are seperated by one or more spaces
+    * Counts the number of characters
+    * Prints all the statistics
 * formatOutputFile()
-    * 
+    * Returns void 
+    * Creates an output file for a given input file in the test directory
+
+#### How to Use The Program
+The program will complete automatically once it is run. However, non-empty .txt files must be present in the data directory for the program to operate successfully. 
+
+#### Test Cases Used
+I tested the program using the following text files:
+* One .txt file from CDC
+* Eight .txt files from webmd
+* One junk .txt file named bob.txt for testing
+
+The result of the testing can be found in the test directory. There is no output-bob.txt file in the directory because the bob.txt file in the data directory is empty. Also, the prog1-extractor-output1.png and prog1-extractor-output2.png show the console output after the test. 
