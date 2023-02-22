@@ -1,1 +1,130 @@
-test
+An example of input and output:
+
+Input: "what are the effects of hiv"
+
+Output:
+---------------------------------
+What is HIV?
+HIV (human immunodeficiency virus) is a virus that attacks the bodyâ??s immune system. It is spread through certain body fluids, including blood, sexual fluids (like semen and vaginal or rectal fluids) and breast milk. Most people get HIV from having unprotected sex (including vaginal or anal sex) with someone who has HIV, or from sharing needles or other drug injection equipment with someone who has HIV.
+
+Early symptoms of HIV infection may include cough, body aches, headaches, nasal congestion, and sore throat. These symptoms usually go away on their own and can be mistaken for flu-like illness. Some people may have no early symptoms at all and may feel healthy. The only way to know for sure whether you have HIV is to get tested.
+
+Over time, HIV infection damages the immune system, making it harder for the body to fight off infections and other diseases, including heart disease, kidney disease, liver disease, and cancer. Left untreated, HIV infection can lead to AIDS (acquired immune deficiency syndrome). AIDS is the most severe phase of HIV infection. People with AIDS have such badly damaged immune systems that they get severe infections that donâ??t normally infect healthy people, called opportunistic infections, and eventually the infection leads to death. No effective cure exists, but with early diagnosis and proper medical care, HIV can be managed and controlled.
+HIV Effects on the Circulatory System
+Several things make your chances of heart-related problems go up. Because HIV affects your immune system, your body will be inflamed as it tries to fight the infection, like itâ??s on a constant simmer. This kind of inflammation has been linked to heart disease.
+
+Some drugs you take for HIV can also make heart disease more likely. They can cause insulin resistance, which makes you more likely to get diabetes, and problems breaking down fats. Diabetes, in turn, raises your risk of heart disease. You might need medicines to control your blood sugar and cholesterol.
+
+If you smoke, quit. Eat a variety of vegetables and fruits, plenty of whole grains, and foods with omega-3 fatty acids. Choose lean cuts of meat and low-fat dairy products. Exercise, like taking a brisk walk, for 20 to 30 minutes most days of the week.
+
+If you're carrying extra weight, losing as little as 5 or 10 pounds could make a big difference.
+Effects of Antiretroviral Drugs on the Body
+Antiretroviral therapy helps people who have HIV live longer, healthier lives and lowers their risk of spreading the virus. The drugs can have side effects, many of which go away with time. Overall, the benefits outweigh the risks.
+
+There are several kinds of antiretroviral drugs, and your doctor might combine them in different ways. Side effects can vary from drug to drug or from person to person.
+
+Common side effects of these drugs include:
+
+Upset stomach and vomiting
+Diarrhea
+Trouble sleeping
+Headache
+Rash
+Dizziness
+Fatigue
+Talk to your doctor if you have any of these problems. They might be able to change your medication or give you something else to deal with the effects.
+
+Make your health a priority. Take your medications as directed, and let your doctor know about any changes or new symptoms. 
+HIV Effects on the Digestive System
+More than half of people who have AIDS report digestive symptoms as the virus or an opportunistic infection targets the walls of their intestines. Diarrhea is the most common one. Over time, the virus can change how your digestive tract works and even how it looks.
+
+Liver
+
+Some HIV medications can damage your liver. Many people with HIV also have a form of inflammation called hepatitis.
+
+Limit how much alcohol you drink, and don't use recreational drugs. Having diabetes, high cholesterol, or triglycerides and being overweight can lead to fatty liver disease, so keep an eye on the carbs, fats, and calories you eat each day.
+
+Talk to your doctor about getting the hepatitis A and hepatitis B vaccines. Thereâ??s no vaccine against hepatitis C, but you should get tested for it.
+
+Get regular blood tests to catch any liver problems early.
+
+Mouth
+
+Your mouth might be one of the first places where you notice signs of HIV. Things like dry mouth, fungal infections, gum disease, cold sores, and canker sores can make chewing or swallowing painful. If they go on too long, you might not be able to take your HIV medication or get the nutrients you need.
+
+Good dental habits can help prevent these issues, so brush and floss regularly. See your dentist for checkups, and tell them if youâ??re having problems. Most mouth conditions tied to HIV are treatable.
+HIV Effects on the Eyes
+Some eye problems are mild, but others can be severe enough to cause blindness. Some of the most common are infections that can lead to bleeding in your retina (the tissue at the back of your eye) and retinal detachment. About 7 in 10 people with untreated AIDS will have AIDS-related trouble with their eyes, usually because of cytomegalovirus.
+
+You may not have any symptoms until the problems are far along, so if you have advanced HIV, it's important to get regular eye exams. Call your doctor if your vision changes, including if:
+
+You get blurry or double vision.
+Colors don't look right.
+You see spots.
+You have watery or red eyes.
+You're sensitive to light.
+Your eyes hurt.
+Effects of HIV on the Body
+HIV attacks your immune system, making it harder for you to fight off things that can make you sick. As the virus weakens your natural defenses, you might notice signs all over your body. But if you start antiretroviral therapy (ART) medicines early in an HIV infection, you wonâ??t have most of these problems.
+
+These drugs can also have some side effects. You'll need to keep an eye out for problems and take steps to prevent or slow them.
+
+HIV Effects on the Immune System
+Your immune system has many types of white blood cells that fight infection. HIV gets inside a kind called CD4 cells and makes copies of itself. The virus kills the cell, and the new viruses go off to find more.
+
+Your body responds by making more CD4 cells, but after a while, it canâ??t keep up with the virus. This makes your immune system weak. Youâ??re more likely to get sick, even from common germs. Infections last longer, are more severe, and might come back more often.
+
+If you follow your doctorâ??s directions with ART, it knocks out HIV, stopping it from infecting more CD4 cells and from weakening your immune system.
+HIV Effects on the Kidneys
+High blood pressure and diabetes are both related to HIV, and both are major causes of kidney disease. The healthy diet and exercise habits that are good for your heart will help keep your blood pressure and blood sugar under control. That helps protect your kidneys, too.
+
+Some HIV medications can damage your kidneys. If you already have kidney problems, your doctor may want to avoid those drugs or keep a close eye on their effects.
+
+Your doctor will need to check your kidneys regularly because you might not notice the signs of kidney disease.
+HIV Effects on the Nervous System
+About half of people with AIDS have nerve problems related to the virus. Infection or inflammation can damage your spinal cord or brain and keep your nerve cells from working the way they should. Some medications can also affect your nervous system.
+
+Brain
+
+Inflammation in your brain and spinal cord can lead to confusion and other thinking problems as well as weakness, headaches, seizures, and balance problems.
+
+When AIDS is far along, you might get dementia and have problems remembering things.
+
+Having HIV can also affect your mental health. Many people living with it have depression or anxiety. Mental health professionals and support groups can help you work through your concerns and manage your life with HIV.
+
+Nerves
+
+The opportunistic infection cytomegalovirus can attack your nerves, making it hard for you to control your arms and legs or your bladder.
+Itâ??s common for tiny holes to form in spinal fibers when people with AIDS donâ??t get treatment. This is called vacuolar myelopathy and causes trouble walking.
+
+HIV or the drugs that treat it can also damage nerves all over your body, causing neuropathy. You might have pain, numbness, weakness, burning, stiffness, or tingling.
+
+Antiretroviral therapy to treat HIV can lower your risk of getting these conditions or complications. If a medication is causing the problems, your doctor might switch you to a different one.
+HIV Effects on the Skeletal System
+People who have the virus tend to lose bone faster than people who donâ??t. Your bones may get brittle and can break more easily. Your hips, especially, may hurt and feel weak.
+
+Things that might cause this include the virus itself, the inflammation it causes, the medicines you take to treat HIV or related illnesses (like steroids or antacids), and an unhealthy lifestyle. It might also be from a vitamin D deficiency, which is common in people who have HIV.
+
+To help keep your bones in good shape:
+
+Make sure you get plenty of calcium and vitamin D.
+Exercise in ways that put weight on your bones, like walking or lifting weights.
+Don't smoke, and limit how much alcohol you drink.
+Ask your doctor to check your vitamin D level.
+Talk to your doctor about supplements or other medications to help your bones.
+HIV Effects on the Skin
+Many people get a skin rash in the first stage of an HIV infection. It usually goes away without treatment in days or weeks. Over time, a number of things might cause more rashes. Itâ??s always important to let your doctor know about a rash, because it might be a sign of a serious problem, or an HIV medication could be causing it.
+
+People who have HIV are more likely to get viral infections. Herpes zoster, herpes simplex, and Molluscum contagiosum can cause rashes or blisters.
+
+Kaposiâ??s sarcoma causes lesions, patches, or nodules that are a different color from your skin. Sometimes, you can also get lesions on your internal organs. These may be life-threatening.
+Who Gets It?
+The infection spreads from person to person when certain body fluids are shared, usually during vaginal or anal sex, or when sharing drugs you inject. It can also be passed from dirty needles from tattoos and body piercing. It can be spread through oral sex, too, although the chance is small.
+
+Mothers can pass HIV to their child during birth, when the baby is exposed to their infected blood, or in their breast milk. But in some areas of the developing world, it's safer for moms with HIV to breastfeed for a few months rather than to give a newborn formula with potentially contaminated water, especially if they are receiving treatment for HIV (see below).      
+
+HIV doesn't live in saliva, tears, pee, or sweat -- so it can't be spread by casual contact with these body fluids.
+
+HIV is not as easy to get as other infectious diseases. The virus can't survive for long outside the human body; it dies quickly when the body fluid dries up. It's not spread by animals or insects. You won't find it on public surfaces like door handles or toilet seats.
+
+All blood products used in the United States and Western Europe today are tested for HIV. Blood banks get rid of any donated blood that tests positive, so it never gets into the public supply. Someone who donates HIV-positive blood will be contacted so they can be tested by their doctor, and they won't be able to give blood again.
