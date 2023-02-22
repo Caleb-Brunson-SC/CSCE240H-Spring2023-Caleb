@@ -13,3 +13,14 @@ This directory contains the
 
 #### test
 This directory contains
+
+
+
+Notes:
+1) disease name is given as initial input
+    - Program will only support HIV
+2) then given information type as input program will return output
+    - input can be as command line argument
+
+My plan:
+- Use 

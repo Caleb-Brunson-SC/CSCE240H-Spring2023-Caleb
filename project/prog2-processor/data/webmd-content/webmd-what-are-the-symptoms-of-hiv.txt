@@ -1,5 +1,4 @@
 What Are the Symptoms of HIV?
- 
 
 HIV infection happens in three stages. Without treatment, it gets worse over time and eventually overpowers your immune system. Your symptoms will depend on your stage
 
@@ -7,7 +6,6 @@ First Stage: Acute HIV Infection Symptoms
 Most people don't know right away when they've been infected with HIV. But they may have symptoms within 2 to 6 weeks after they’ve gotten the virus. This is when your body's immune system puts up a fight. It's called acute retroviral syndrome or primary HIV infection.
 
 The symptoms are similar to those of other viral illnesses, and they're often compared to the flu. They typically last a week or two and then go away. Early signs of HIV include:
-
 
 Headache
 Fatigue
@@ -20,11 +18,9 @@ Ulcers (sores) in your mouth, esophagus, anus, or genitals
 Headache and other neurological symptoms
 If you have symptoms like these and might have come into contact with someone with HIV in the past 2 to 6 weeks, go to a doctor and ask that you get an HIV test. If you don’t have symptoms but still think you might have come into contact with the virus, get tested.
 
-
 Early testing is important for two reasons. First, at this stage, levels of HIV in your blood and bodily fluids are very high. This makes it especially contagious. Second, starting treatment as soon as possible might help boost your immune system and ease your symptoms.
 
 A combination of medications (called HIV drugs, antiretroviral therapy, or ART) can help fight HIV, keep your immune system healthy, and keep you from spreading the virus. If you take these medications and have healthy habits, your HIV infection probably won’t get worse.
-
 
 Second Stage: Clinical Latency Symptoms
 After your immune system loses the battle with HIV, the flu-like symptoms will go away. But there’s a lot going on inside your body. Doctors call this the asymptomatic period or chronic HIV infection.
@@ -34,7 +30,6 @@ In your body, cells called CD4 T cells coordinate your immune system’s respons
 Most people don't have symptoms they can see or feel. You may not realize that you're infected and can pass HIV on to others.
 
 If you’re taking ART, you might stay in this phase for decades. You can pass the virus on to other people, but it’s extremely rare if you take your medicines.
-
 
 Third Stage: AIDS Symptoms
 AIDS is the advanced stage of HIV infection. This is usually when your CD4 T-cell number drops below 200 and your immune system is badly damaged. You might get an opportunistic infection, an illness that happens more often and is worse in people who have weakened immune systems. Some of these, such as Kaposi's sarcoma (a form of skin cancer) and pneumocystis pneumonia (a lung disease), are also considered “AIDS-defining illnesses.”
