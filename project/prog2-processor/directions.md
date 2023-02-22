@@ -3,24 +3,13 @@ Please read the report located in the **doc** directory for a detailed explanati
 
 ### Directories
 #### data
-This directory contains 
+This directory contains two sub-directories: cdc-content and webmd-content. They each contain their own .txt files.
 
 #### doc
 This directory contains the 1-page report.
 
 #### src
-This directory contains the 
+This directory contains the ProgProcessor.java code.
 
 #### test
-This directory contains
-
-
-
-Notes:
-1) disease name is given as initial input
-    - Program will only support HIV
-2) then given information type as input program will return output
-    - input can be as command line argument
-
-My plan:
-- Use 
+This directory contains text_output.txt with input and output.
