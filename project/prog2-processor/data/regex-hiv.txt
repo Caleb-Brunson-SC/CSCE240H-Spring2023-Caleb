@@ -1,1 +1,8 @@
-after|travel    .\\project\\prog2-processor\\data\\cdc-content\\cdc-after-travel.txt
+after|travel    project\\prog2-processor\\data\\cdc-content\\cdc-after-travel.txt
+what.*can|travelers|prevent     project\prog2-processor\data\cdc-content\cdc-what-can-travelers-do-to-prevent-hiv.txt
+what.*is|hiv     project\prog2-processor\data\cdc-content\cdc-what-is-hiv.txt
+who.*is|risk     project\prog2-processor\data\cdc-content\cdc-who-is-at-risk.txt
+best.*way|treat.*hiv      project\prog2-processor\data\webmd-content\webmd-best-way-to-treat-hiv.txt
+effects.*hiv|circulatory.*system      project\prog2-processor\data\webmd-content\webmd-hiv-effects-on-the-circulatory-system.txt
+effects.*of|antiretroviral.*drugs|body    project\prog2-processor\data\webmd-content\webmd-effects-of-antiretroviral-drugs-on-the-body.txt
+effects.*hiv|digestive.*system    project\prog2-processor\data\webmd-content\webmd-hiv-effects-on-the-digestive-system.txt
