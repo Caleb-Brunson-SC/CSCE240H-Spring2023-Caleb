@@ -53,24 +53,26 @@ public class ProgProcessor {
     public static void findRegexMatch(String fileName, String userInput) {
         try {
             Scanner sc = new Scanner(new File(fileName));
+            boolean matchFound = false;
             while (sc.hasNextLine()) {
                 // get the first word from each line
                 String regex = sc.next();
                 // check if there is a pattern match
                 Pattern pattern = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
                 Matcher matcher = pattern.matcher(userInput);
-                boolean matchFound = matcher.find();
+                matchFound = matcher.find();
                 if (matchFound) {
                     String contentFile = sc.next();
                     printFile(contentFile);
-                } else {
-                    System.out.println("Sorry, I do not understand that.");
                 }
                 // Check if a next line exists
                 if (sc.hasNextLine()) {
                     // progress to next line
                     sc.nextLine(); 
                 }
+            }
+            if (!matchFound) {
+                System.out.println("Sorry, I do not understand that.");
             }
         } catch (Exception e) {
             e.printStackTrace();
