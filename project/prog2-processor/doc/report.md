@@ -1,16 +1,12 @@
-## Programming Assingment #1
+## Programming Assingment #2
 ### Written by Caleb Brunson
 
 #### Purpose
 The goal of this project assignment is to extract data from static webpages related to the HIV disease. The program should perform the following tasks:
 1. Take disease as input
-2. Read content about the disease
-    * I chose to use a local text version of the webpage content
-3. Report statistics on each webpage. I chose to report number of:
-    * Lines
-    * Words
-    * Chars
-4. Write content formatted with indentation to an output file
+2. Take an information type as input
+3. Return content based on that information
+4. Also, testing options and output should be stored in a "test_output.txt" file
 
 #### Project Organization
 There are four directories contained in the prog1-extractor directory. These are the following:
@@ -45,9 +41,17 @@ The ProgExtractor.java class contains four methods:
     * Uses an if-else statement to check the length of the file
         * If the file is empty, return false
         * Else, return true
-* 
+* findRegexMath()
+    * Returns void
+    * Loops through a file called regex-hiv.txt
+    * Compares if each regex matches the user's input as a String
+    * If a match is found, then it will call printFile() using the respective file name
+* printFile()
+    * Returns void
+    * Loops through a file and prints out the content
 
 #### How to Use The Program
-The program will complete automatically once it is run. 
+The program will first ask the user to input 'hiv' as the disease type. Then, the program will ask the user what they would like to know. The user should input their question.
 
 #### Test Cases Used
+I used an input of "what are the effects of hiv" and the output is stored in "test_output".txt in the test directory.
