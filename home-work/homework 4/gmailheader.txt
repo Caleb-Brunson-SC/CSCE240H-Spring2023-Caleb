@@ -1,0 +1,25 @@
+MIME-Version: 1.0
+Date: Mon, 9 May 2022 18:24:26 -0700
+Message-ID: <CAL+QB1HC9P-CvuOkF7m94uRsn0U9qoxXexBkiR9YMQ5em2m2DQ@mail.gmail.com>
+Subject: Completed Video Report Paper
+From: Caleb Brunson <caleb.brunson.professional@gmail.com>
+To: zachwagner711@gmail.com
+Cc: caleb.brunson.sc@gmail.com
+Content-Type: multipart/mixed; boundary="0000000000008fbc4205de9e2f97"
+Content-Type: multipart/alternative; boundary="0000000000008fbc3f05de9e2f95"
+Content-Type: text/plain; charset="UTF-8"
+
+Hello Zach,
+
+The one page paper for homework is attached to this email.
+
+Sincerely,
+
+Caleb Brunson
+
+Content-Type: text/html; charset="UTF-8"
+Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document; name="Daily Development Review Report - Caleb Brunson.docx"
+Content-Disposition: attachment; filename="Daily Development Review Report - Caleb Brunson.docx"
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_l2zgzoc30
+Content-ID: <f_l2zgzoc30>
