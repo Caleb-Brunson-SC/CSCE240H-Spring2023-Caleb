@@ -8,6 +8,7 @@
 #include <map>
 #include <string>
 #include <vector>
+#include <regex>
 using namespace std;
 
 
@@ -38,8 +39,10 @@ public:
         try {
             file.open(fileName);
             string line;
+            string tempReg = "(" + message + ":)(.*)";
+            regex messageRegex(tempReg);
             while (getline(file, line)) {
-                if (line.find(message) != string::npos) {
+                if (regex_match(line, messageRegex)) {
                     cout << line << endl;
                 }
             }
