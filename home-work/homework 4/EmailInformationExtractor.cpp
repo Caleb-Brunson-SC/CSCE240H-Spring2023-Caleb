@@ -25,8 +25,12 @@ public:
         parts = newParts;
     };
     void printParts() {
+        int count = 1;
         for (auto i = parts.begin(); i != parts.end(); ++i)
-            cout << *i << " ";
+        {
+            cout << count << ") " << *i << "\n";
+            count++;
+        }
     };
     void printMessage(string fileName, string message) {
         ifstream file;
@@ -95,7 +99,7 @@ int main()
                 gmail.printParts();
             }
             
-            cout << "Please enter the part name you would like to return a message value for:" << endl;
+            cout << "\nPlease enter the part name you would like to return a message value for:" << endl;
             string inputPart;
             cin >> inputPart;
             gmail.printMessage("gmailheader.txt", inputPart);
@@ -111,7 +115,7 @@ int main()
                 outlook.printParts();
             }
 
-            cout << "Please enter the part name you would like to return a message value for:" << endl;
+            cout << "\nPlease enter the part name you would like to return a message value for:" << endl;
             string inputPart;
             cin >> inputPart;
             outlook.printMessage("outlookheader.txt", inputPart);
