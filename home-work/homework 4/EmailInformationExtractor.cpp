@@ -41,10 +41,15 @@ public:
             string line;
             string tempReg = "(" + message + ":)(.*)";
             regex messageRegex(tempReg);
+            bool found = false;
             while (getline(file, line)) {
                 if (regex_match(line, messageRegex)) {
                     cout << line << endl;
+                    found = true;
                 }
+            }
+            if (found == false) {
+                cout << "Sorry! Nothing in the file matches the message: " + message << endl;
             }
         }
         catch (const ifstream::failure& e) {
