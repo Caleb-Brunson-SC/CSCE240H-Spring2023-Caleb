@@ -1,10 +1,11 @@
-// EmailInformationExtractor.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// Homework 4.cpp : This file contains the 'main' function. Program execution begins and ends there.
 // https://cplusplus.com/forum/general/11460/#msg54095
 // https://stackoverflow.com/questions/9670396/exception-handling-and-opening-a-file
 // https://stackoverflow.com/questions/33152992/find-in-c-if-a-line-from-file-contains-a-specific-character
 
 #include <iostream>
 #include <fstream>
+#include <map>
 #include <string>
 #include <vector>
 using namespace std;
@@ -76,7 +77,64 @@ public:
 
 int main()
 {
+    bool quit = false;
+    while (!quit) {
+        cout << "*************Welcome to the Email Extraction Program*************" << endl;
+        cout << "* Enter 'gmail' to extract from the gmail header file" <<
+                "\n* Enter 'outlook' to extract from the outlook header file" << endl;
+        string headerChoice;
+        cin >> headerChoice;
+        if (headerChoice.compare("gmail") == 0) {
+            GmailHeaderType gmail;
+            cout << "Would you like to see the list of accepted part names?" << endl;
+            cout << "* Enter 'y' for yes" << 
+                "\n* Enter 'n' for no" << endl;
+            string seePartsChoice;
+            cin >> seePartsChoice;
+            if (seePartsChoice.compare("y") == 0) {
+                gmail.printParts();
+            }
+            
+            cout << "Please enter the part name you would like to return a message value for:" << endl;
+            string inputPart;
+            cin >> inputPart;
+            gmail.printMessage("gmailheader.txt", inputPart);
+        }
+        else if (headerChoice.compare("outlook") == 0) {
+            OutlookHeaderType outlook;
+            cout << "Would you like to see the list of accepted part names?" << endl;
+            cout << "* Enter 'y' for yes" <<
+                "\n* Enter 'n' for no" << endl;
+            string seePartsChoice;
+            cin >> seePartsChoice;
+            if (seePartsChoice.compare("y") == 0) {
+                outlook.printParts();
+            }
 
-    OutlookHeaderType outlook;
-    outlook.printMessage("outlookheader.txt", "To");
+            cout << "Please enter the part name you would like to return a message value for:" << endl;
+            string inputPart;
+            cin >> inputPart;
+            outlook.printMessage("outlookheader.txt", inputPart);
+        }
+        else {
+            cout << "Invalid Input" << endl;
+        }
+
+
+        cout << "Enter 'q' to quit or 'c' to continue" << endl;
+        string quitChoice;
+        cin >> quitChoice;
+        if (quitChoice.compare("q") == 0) {
+            quit = true;
+        }
+        else if (quitChoice.compare("c") == 0) {
+            quit = false;
+        }
+        else {
+            cout << "Invalid Input" << endl;
+        }
+    }
+
+
+    
 }
