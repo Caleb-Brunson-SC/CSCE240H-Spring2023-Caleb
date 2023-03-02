@@ -43,7 +43,7 @@ public class Prog3UI {
     public boolean checkFile(String fileName) {
         File newFile = new File(fileName); 
 
-        if (newFile.length() == 0) { 
+        if (newFile.length() == 0) { // this line assumes that a file with no characters is empty
             System.out.println("Sorry! " + fileName + " file is empty.");
             return false;
         } else {
