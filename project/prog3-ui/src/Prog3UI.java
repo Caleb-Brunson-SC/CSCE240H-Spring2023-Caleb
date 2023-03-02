@@ -70,4 +70,18 @@ public class Prog3UI {
             }
         }
 
+    public void printEverything(String dirPath) {
+        try {
+            File path = new File(dirPath);
+            File [] files = path.listFiles();
+            for (int i = 0; i < files.length; i++) {
+                if (files[i].isFile()) {
+                    String myPath = files[i].getAbsolutePath();
+                    printFile(myPath);
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }
