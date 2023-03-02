@@ -34,6 +34,7 @@ public class Prog3UI {
             if (!matchFound) {
                 System.out.println("Sorry, I do not understand that.");
             }
+            sc.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
