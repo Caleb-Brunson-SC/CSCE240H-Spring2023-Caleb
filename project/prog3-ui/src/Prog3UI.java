@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 
 public class Prog3UI {
 
-    public static void findRegexMatch(String fileName, String userInput) {
+    public void findRegexMatch(String fileName, String userInput) {
         try {
             Scanner sc = new Scanner(new File(fileName));
             boolean matchFound = false;
@@ -39,7 +39,7 @@ public class Prog3UI {
         }
     }
 
-    private static boolean checkFile(String fileName) {
+    public boolean checkFile(String fileName) {
         File newFile = new File(fileName); 
 
         if (newFile.length() == 0) { 
@@ -50,7 +50,7 @@ public class Prog3UI {
         }
     }
 
-    public static void printFile(String fileName) {
+    public void printFile(String fileName) {
         try {
             File myFile = new File(fileName);
             Scanner myReader = new Scanner(myFile);
