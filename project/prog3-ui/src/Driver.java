@@ -30,7 +30,7 @@ public class Driver {
                     progCLI.findRegexMatch(regexFile, userInput);
                 }
                 System.out.println("---------------------------------");
-                System.out.println("Enter 'q' to quit or 'c' to continue:");
+                System.out.println("Enter 'quit' or 'q' to quit; enter 'c' to continue:");
                 String userChoice = keyboard.nextLine();
                 if (userChoice.equalsIgnoreCase("q") || userChoice.equalsIgnoreCase("quit")) {
                     quit = true;
