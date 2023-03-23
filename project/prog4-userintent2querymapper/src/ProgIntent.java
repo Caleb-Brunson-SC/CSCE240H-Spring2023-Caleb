@@ -2,7 +2,6 @@ package src;
 import java.io.File;
 import java.io.BufferedReader;  
 import java.io.FileReader;  
-import java.io.IOException;  
 import java.util.HashMap;
 /*
  * ProgIntent.java
@@ -110,7 +109,7 @@ public class ProgIntent {
             }
 
             if (lowestPercent > 0.7) {
-                System.out.println(lowestPercent + " " + resultFilePath);
+                System.out.println("Content from: " + resultFilePath + "; Percent Confidence: " + lowestPercent);
                 printFile(resultFilePath);
             }
             

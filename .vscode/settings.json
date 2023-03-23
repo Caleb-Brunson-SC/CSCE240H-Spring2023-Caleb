@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "project\\prog4-userintent2querymapper"
+        "project/prog4-userintent2querymapper",
+        "project/prog3-ui/src"
     ]
 }

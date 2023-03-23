@@ -11,11 +11,11 @@ public class Driver {
         // Get user input for disease type
         String disease = keyboard.nextLine();
         if (disease.equalsIgnoreCase("hiv")) {
-            System.out.println("Enter what you would like to know about hiv:");
             // Loop boolean variable
             boolean quit = false;
             // Main loop
             while (!quit) {
+                System.out.println("What would you like to know about hiv?:");
                 // Instance of ProgIntent class
                 ProgIntent progIntent = ProgIntent.getInstance();
                 // Get user utterance (u)
