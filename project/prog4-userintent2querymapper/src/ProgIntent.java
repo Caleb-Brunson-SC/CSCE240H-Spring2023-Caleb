@@ -111,6 +111,8 @@ public class ProgIntent {
             if (lowestPercent > 0.7) {
                 System.out.println("Content from: " + resultFilePath + "; Percent Confidence: " + lowestPercent);
                 printFile(resultFilePath);
+            } else {
+                System.out.println("Sorry, I do not understand that.");
             }
             
         } catch (Exception e) {

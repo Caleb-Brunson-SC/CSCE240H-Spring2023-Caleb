@@ -18,3 +18,14 @@ Ask your doctor to check your vitamin D level.
 Talk to your doctor about supplements or other medications to help your bones.
 Enter 'quit' or 'q' to quit; enter 'c' to continue:
 q
+
+------------------------------------------------------
+
+Welcome to the Prog4 Chatbot!
+Enter 'hiv' to learn about the disease:
+hiv
+What would you like to know about hiv?:
+who is john marry ables?
+Sorry, I do not understand that.
+Enter 'quit' or 'q' to quit; enter 'c' to continue:
+q
