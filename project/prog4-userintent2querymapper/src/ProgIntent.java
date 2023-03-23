@@ -11,11 +11,11 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class ProgIntent {
-    private HashMap<String, File> regexMap = new HashMap<String, File>();
+    private HashMap<String, File> dataMap = new HashMap<String, File>();
     private static ProgIntent progIntent;
 
     private ProgIntent() {
-        this.regexMap = getRegexMap();
+        this.dataMap = getDataMap();
     }
 
     public static ProgIntent getInstance() {
@@ -25,22 +25,14 @@ public class ProgIntent {
         return progIntent;
     } 
 
-    public HashMap<String, File> getRegexMap() {
+    public HashMap<String, File> getDataMap() {
         // https://www.javatpoint.com/how-to-read-csv-file-in-java
         try {
-            HashMap<String, File> regexMap = new HashMap<String, File>();
-            String line = "";  
-            String splitBy = ",";  
+            HashMap<String, File> dataMap = new HashMap<String, File>();
+           
+            String dataDir = "project\\prog4-userintent2querymapper\\data";
 
-            BufferedReader br = new BufferedReader(new FileReader("regex-hiv.csv"));  
-            while ((line = br.readLine()) != null)  {  
-                String[] regexStrings = line.split(splitBy);    // use comma as separator  
-                regexMap.put(regexStrings[0], new File(regexStrings[1]));
-            }
-            
-            br.close();
-
-            return regexMap;
+            return dataMap;
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -49,8 +41,10 @@ public class ProgIntent {
     }
 
     public void matchUtterance(String u) {
-        for (String i : regexMap.keySet()) {
-            System.out.println("key: " + i + " value: " + regexMap.get(i));
+        int j  = 0;
+        for (String i : dataMap.keySet()) {
+            System.out.println(j + "; key: " + i + " value: " + dataMap.get(i));
+            j++;
           }
     }
 }
