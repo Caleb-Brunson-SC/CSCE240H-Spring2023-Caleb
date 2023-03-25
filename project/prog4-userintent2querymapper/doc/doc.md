@@ -2,6 +2,11 @@
 # Written by Caleb Brunson
 
 #### Purpose
+The goal of this project was to adapt the chatbot system to handle varying user inputs. The program must:
+* Take an utterance from the User.
+* Match the support query that is closest to the utterance.
+* If the confidence level is above a threshold, then run the query.
+    * Otherwise, ask the user to ask again.
 
 #### Project Organization
 

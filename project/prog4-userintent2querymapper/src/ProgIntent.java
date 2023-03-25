@@ -112,7 +112,7 @@ public class ProgIntent {
                 System.out.println("Content from: " + resultFilePath + "; Percent Confidence: " + lowestPercent);
                 printFile(resultFilePath);
             } else {
-                System.out.println("Sorry, I do not understand that.");
+                System.out.println("Sorry, I do not understand that. Please re-phrase your question:");
             }
             
         } catch (Exception e) {
