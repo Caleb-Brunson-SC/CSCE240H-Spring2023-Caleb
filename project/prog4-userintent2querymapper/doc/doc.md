@@ -8,8 +8,6 @@ The goal of this project was to adapt the chatbot system to handle varying user 
 * If the confidence level is above a threshold, then run the query.
     * Otherwise, ask the user to ask again.
 
-#### Project Organization
-
 #### Source Code Organization
 There are four directories contained in the prog3-ui directory. These are the following:
 * data
@@ -18,6 +16,9 @@ There are four directories contained in the prog3-ui directory. These are the fo
     * This directory contains the 1-page report.
 * src
     * This directory contains the ProgIntent.java, Driver.java, and regex-hiv.csv files.
+    * ProgIntent.java contains the backend code to match, test confidence level, and run a query.
+    * Driver.java contains the frontend code for the command-line interface (CLI)
+    * regex-hiv.csv file contains supported queries and content file paths
 * test
     * This directory contains log.txt with sample user interaction and output.
 
@@ -25,3 +26,7 @@ There are four directories contained in the prog3-ui directory. These are the fo
 Upon running the Driver.java file, the program will prompt the user to type in "hiv" and then to enter any questions they have.
 
 #### Test Case Used
+The two test cases (user utterances) used were:
+1. "what are the effects on the skeletal system?"
+2. "who is john marry ables?"
+The output from these utterances is in the log.txt file.
