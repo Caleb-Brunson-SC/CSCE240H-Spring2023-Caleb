@@ -26,6 +26,6 @@ Enter 'hiv' to learn about the disease:
 hiv
 What would you like to know about hiv?:
 who is john marry ables?
-Sorry, I do not understand that.
+Sorry, I do not understand that. Please re-phrase your question:
 Enter 'quit' or 'q' to quit; enter 'c' to continue:
 q
