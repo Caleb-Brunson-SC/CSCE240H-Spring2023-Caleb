@@ -6,7 +6,7 @@ public class Driver {
         // Scanner
         Scanner keyboard = new Scanner(System.in);
         // Greet user
-        System.out.println("Welcome to the Prog4 Chatbot!");
+        System.out.println("Welcome to the Prog5-SessionLogger Chatbot!");
         System.out.println("Enter 'hiv' to learn about the disease:");
         // Get user input for disease type
         String disease = keyboard.nextLine();
@@ -19,7 +19,9 @@ public class Driver {
                 // Instance of ProgIntent class
                 Backend backend = Backend.getInstance();
                 // Get user utterance (u)
+                System.out.print("U: ");
                 String u = keyboard.nextLine();
+                System.out.println(u);
                 // Run query with u
                 backend.matchUtterance(u);
                 // Prompt user to quit

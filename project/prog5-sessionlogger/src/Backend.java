@@ -9,6 +9,8 @@ public class Backend {
     private static final String REGEX_PATH = "project\\prog5-sessionlogger\\src\\regex-hiv.csv";
     private HashMap<String, String> regexMap = new HashMap<String, String>();
     private static Backend backend;
+    private int numUserUtterances;
+    private int numSystemUtterances;
 
     private Backend() {
         this.regexMap = getDataMap();
@@ -105,8 +107,11 @@ public class Backend {
             }
 
             if (lowestPercent > 0.7) {
-                System.out.println("Content from: " + resultFilePath + "; Percent Confidence: " + lowestPercent);
+                System.out.println("-----------------------------------------------------------------------");
+                System.out.println("S: ");
                 printFile(resultFilePath);
+                System.out.println("Source: " + resultFilePath);
+                System.out.println("-----------------------------------------------------------------------");
             } else {
                 System.out.println("Sorry, I do not understand that. Please re-phrase your question:");
             }
