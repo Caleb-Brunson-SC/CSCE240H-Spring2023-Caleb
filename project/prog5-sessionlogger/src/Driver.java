@@ -28,6 +28,7 @@ public class Driver {
                 System.out.println("Enter 'quit' or 'q' to quit; enter 'c' to continue:");
                 String userChoice = keyboard.nextLine();
                 if (userChoice.equalsIgnoreCase("q") || userChoice.equalsIgnoreCase("quit")) {
+                    backend.writeStatistics();
                     quit = true;
                 }
             }
