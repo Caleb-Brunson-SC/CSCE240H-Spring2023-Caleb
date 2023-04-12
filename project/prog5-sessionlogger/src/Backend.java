@@ -82,6 +82,7 @@ public class Backend {
             String[] arrOfU = u.split(" ", -2);
 
             double lowestPercent = 0.0;
+            String query = null;
             String resultFilePath = null;
 
             for (String i : regexMap.keySet()) {
@@ -102,6 +103,7 @@ public class Backend {
                 
                 if (matchPercent > lowestPercent) {
                     lowestPercent = matchPercent;
+                    query = i;
                     resultFilePath = regexMap.get(i);
                 }
             }
@@ -110,10 +112,14 @@ public class Backend {
                 System.out.println("-----------------------------------------------------------------------");
                 System.out.println("S: ");
                 printFile(resultFilePath);
-                System.out.println("Source: " + resultFilePath);
+                System.out.println("\nSource: " + resultFilePath);
                 System.out.println("-----------------------------------------------------------------------");
             } else {
-                System.out.println("Sorry, I do not understand that. Please re-phrase your question:");
+                System.out.println("-----------------------------------------------------------------------");
+                System.out.println("Sorry, I do not know that information.\nHere is my guess: " + query + "\n");
+                printFile(resultFilePath);
+                System.out.println("Did I answer this correctly?:");
+                System.out.println("-----------------------------------------------------------------------");
             }
             
         } catch (Exception e) {
