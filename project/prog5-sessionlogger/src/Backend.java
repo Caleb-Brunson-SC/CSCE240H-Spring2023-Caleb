@@ -195,10 +195,9 @@ public class Backend {
             int sessionNum = (int) (lines + 1);
 
             FileWriter myWriter = new FileWriter(STATISTICS_PATH, true);
-            myWriter.write("S.No: " + sessionNum + ", # User Utterances: " + count + ", # System Utterances: " + count + ", Session Duration: " + sessionDuration);
+            myWriter.write("S.No: " + sessionNum + ", # User Utterances: " + count + ", # System Utterances: " + count + ", Session Duration: " + sessionDuration + "\n");
             myWriter.close();
 
-            System.out.println(lines);
         } catch (Exception e) {
             e.printStackTrace();
         }
