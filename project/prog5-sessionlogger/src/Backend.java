@@ -3,24 +3,22 @@ import java.io.File;
 import java.io.BufferedReader;  
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 
 public class Backend {
     private static final String REGEX_PATH = "project\\prog5-sessionlogger\\src\\regex-hiv.csv";
-    private static final String CHAT_SESSIONS_DIR_PATH = "project\\prog5-sessionlogger\\data\\chat_sessions";
+    private static final String CHAT_SESSIONS_DIR_PATH = "project\\prog5-sessionlogger\\data\\chat_sessions\\";
     private static final String STATISTICS_PATH = "project\\prog5-sessionlogger\\data\\chat_statistics.csv";
     private HashMap<String, String> regexMap = new HashMap<String, String>();
     private static Backend backend;
-    private int numUserUtterances;
-    private int numSystemUtterances;
     private ArrayList<String> chatFiles;
 
     private Backend() {
         this.regexMap = getDataMap();
-        this.numUserUtterances = 0;
-        this.numSystemUtterances = 0;
         this.chatFiles = new ArrayList<String>();
     }
 
@@ -88,7 +86,7 @@ public class Backend {
         return null;
     }
 
-    public void matchUtterance(String u) {
+    public String matchUtterance(String u) {
         try {
             // Split strin u into individual words
             String[] arrOfU = u.split(" ", -2);
@@ -137,44 +135,44 @@ public class Backend {
 
             // print out systemResponse
             System.out.println(systemResponse);
-            // Increment user utterance count
-            numUserUtterances++;
-            // Increment system utterances count
-            numSystemUtterances++;
             // Add resultFilePath to chatFiles
             chatFiles.add(resultFilePath);
-            // Create a chat session log file
-            writeChatSessions(systemResponse);
+
+            return systemResponse;
             
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+        return null;
     }
 
-    public void writeChatSessions(String systemResponse) {
+    public void writeChatFile(HashMap<String, String> sessionMap, double sessionDuration) {
         try {
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    public void writeStatistics() {
-        try {
-            // Get number of lines in the file
-            BufferedReader reader = new BufferedReader(new FileReader(STATISTICS_PATH));
-            int lines = 0;
-            while (reader.readLine() != null) lines++;
-            reader.close();
-
-            // Write to the file
-            FileWriter myWriter = new FileWriter(STATISTICS_PATH);
-            for (String chatFile : chatFiles) {
+            // https://www.javatpoint.com/java-get-current-date
+            DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+            LocalDateTime now = LocalDateTime.now();
+            String date = dtf.format(now).toString();
+            File myObj = new File(CHAT_SESSIONS_DIR_PATH + date + "_" + sessionDuration +  ".txt");
+            if (myObj.createNewFile()) {
+                FileWriter myWriter = new FileWriter(myObj);
                 
+                int count = 0;
+                // write utterances and responses
+                for (String utterance : sessionMap.keySet()) {
+                    myWriter.write(utterance);
+                    myWriter.write(sessionMap.get(utterance));
+                    count++;
+                }
+                
+                // write statistics
+                myWriter.write("Statistics; # of user utterances: " + count + "; # of system utterances: " + count
+                + "; Time Duration of Sessions: " + sessionDuration);
+
+                myWriter.close();
+            } else {
+                System.out.println("File already exists.");
             }
-            myWriter.write("Files in Java might be tricky, but it is fun enough!");
-            myWriter.close();
-            System.out.println("Successfully wrote to the file.");
         } catch (Exception e) {
             e.printStackTrace();
         }

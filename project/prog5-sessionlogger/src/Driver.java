@@ -1,8 +1,13 @@
 package src;
 import java.util.Scanner;
+import java.util.HashMap;
 
 public class Driver {
     public static void main(String[] args) {
+        // utterance
+        HashMap<String, String> sessionMap = new HashMap<String, String>();
+        // Time tracking
+        long start = System.nanoTime();
         // Scanner
         Scanner keyboard = new Scanner(System.in);
         // Greet user
@@ -23,12 +28,17 @@ public class Driver {
                 String u = keyboard.nextLine();
                 System.out.println(u);
                 // Run query with u
-                backend.matchUtterance(u);
+                String response = backend.matchUtterance(u);
+                // Add utterance and response to hashmap
+                sessionMap.put(u, response);
                 // Prompt user to quit
                 System.out.println("Enter 'quit' or 'q' to quit; enter 'c' to continue:");
                 String userChoice = keyboard.nextLine();
                 if (userChoice.equalsIgnoreCase("q") || userChoice.equalsIgnoreCase("quit")) {
-                    backend.writeStatistics();
+                    // Get final time
+                    long finish = System.nanoTime();
+                    long timeElapsed = finish - start;
+                    backend.writeChatFile(sessionMap, timeElapsed);
                     quit = true;
                 }
             }
