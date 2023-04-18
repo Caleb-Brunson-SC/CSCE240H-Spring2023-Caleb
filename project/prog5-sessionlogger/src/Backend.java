@@ -3,6 +3,7 @@ import java.io.File;
 import java.io.BufferedReader;  
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.nio.file.Files;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -170,9 +171,34 @@ public class Backend {
                 + "; Time Duration of Sessions: " + sessionDuration);
 
                 myWriter.close();
+
+                // Append to chat_statistics.csv
+                appendChatStatistics(myObj, count, sessionDuration);
             } else {
                 System.out.println("File already exists.");
             }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void appendChatStatistics(File chatFile, int count, double sessionDuration) {
+        try {
+            File statisticsFile = new File(STATISTICS_PATH);
+            // If file doesn't exist then create it
+            if (!statisticsFile.exists()) {
+                statisticsFile.createNewFile();
+            }
+
+            // Append to the file now that it exists
+            long lines = Files.lines(statisticsFile.toPath()).count();
+            int sessionNum = (int) (lines + 1);
+
+            FileWriter myWriter = new FileWriter(STATISTICS_PATH);
+            myWriter.write("S.No: " + sessionNum + ", # User Utterances: " + count + ", # System Utterances: " + count + ", Session Duration: " + sessionDuration);
+            myWriter.close();
+
+            System.out.println(lines);
         } catch (Exception e) {
             e.printStackTrace();
         }
