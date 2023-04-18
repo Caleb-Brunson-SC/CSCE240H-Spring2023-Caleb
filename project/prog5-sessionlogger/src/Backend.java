@@ -194,7 +194,7 @@ public class Backend {
             long lines = Files.lines(statisticsFile.toPath()).count();
             int sessionNum = (int) (lines + 1);
 
-            FileWriter myWriter = new FileWriter(STATISTICS_PATH);
+            FileWriter myWriter = new FileWriter(STATISTICS_PATH, true);
             myWriter.write("S.No: " + sessionNum + ", # User Utterances: " + count + ", # System Utterances: " + count + ", Session Duration: " + sessionDuration);
             myWriter.close();
 
