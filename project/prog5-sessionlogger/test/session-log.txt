@@ -1,4 +1,20 @@
-U:
-
-S:
-Source:
+U: what should I do after travel?
+what should I do after travel?
+-----------------------------------------------------------------------
+S: Sorry, I do not know that information.
+Here is my guess: after travel
+After TravelIf you traveled and feel sick, particularly if you have a fever, talk to a healthcare provider and tell them about your travel. If you need medical care abroad, see Getting Health Care During Travel.
+Source: project\\prog5-sessionlogger\\data\\S1-I1.txt
+Did I answer this correctly?
+-----------------------------------------------------------------------
+Enter 'quit' or 'q' to quit; enter 'c' to continue:
+c
+What would you like to know about hiv?:
+U: what are the effects on the skeletal system?
+what are the effects on the skeletal system?
+-----------------------------------------------------------------------
+S: HIV Effects on the Skeletal SystemPeople who have the virus tend to lose bone faster than people who donâ??t. Your bones may get brittle and can break more easily. Your hips, especially, may hurt and feel weak.Things that might cause this include the virus itself, the inflammation it causes, the medicines you take to treat HIV or related illnesses (like steroids or antacids), and an unhealthy lifestyle. It might also be from a vitamin D deficiency, which is common in people who have HIV.To help keep your bones in good shape:Make sure you get plenty of calcium and vitamin D.Exercise in ways that put weight on your bones, like walking or lifting weights.Don't smoke, and limit how much alcohol you drink.Ask your doctor to check your vitamin D level.Talk to your doctor about supplements or other medications to help your bones.
+Source: project\\prog5-sessionlogger\\data\\s2-i9.txt
+-----------------------------------------------------------------------
+Enter 'quit' or 'q' to quit; enter 'c' to continue:
+q
